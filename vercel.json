@@ -1,17 +1,4 @@
 {
   "version": 2,
-  "name": "adsoire-dashboard",
-  "builds": [
-    {
-      "src": "adsoire_business_dashboard.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/adsoire_business_dashboard.html"
-    }
-  ],
-  "public": true
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
 }
