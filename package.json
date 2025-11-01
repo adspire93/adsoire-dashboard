@@ -1,0 +1,16 @@
+{
+  "name": "adsoire-business-dashboard",
+  "version": "1.0.0",
+  "description": "ADSOIRE Digital Visibility - Business Intelligence Dashboard",
+  "scripts": {
+    "start": "echo 'This is a static site - no build needed'"
+  },
+  "keywords": [
+    "business",
+    "dashboard",
+    "digital-visibility",
+    "adsoire"
+  ],
+  "author": "ADSOIRE Digital Visibility",
+  "license": "MIT"
+}
